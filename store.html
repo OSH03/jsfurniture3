@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JOS Furniture Store</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@345&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4d528cf59a.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body id="bodyS">
+        <header id="headerStore">
+            <nav>
+                <a href="home.html"><img src="Image/home_adobespark_copy.png" alt="LOGO"></a>
+                <h2 class="title">JOS Furniture</h2>
+                
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="store.html">STORE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="custReview.html">CUSTOMER REVIEWS</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1 class="subTitle">Store Location</h1>
+
+        </header>
+
+        <main>
+            <section class="Store">
+                <div></div>
+                <h2>THE LINC KL</h2>
+                <div class="landscape">
+                    <img src="Image/store1.jpg" alt="Store 1">
+
+                    <div class="location-box">
+                        <p>Address: First Floor, Lot F-038 & F-39, 360, Jln Tun Razak, Taman U Thant, 50400 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+                        <br>
+                        <p>Phone Number: 011-8888 9999 </p>
+                        <br>
+                        <p>Email: customerservice@JOS-Furniture.com.my</p>
+                        <br>
+                        <p>Operating Hours: 10am-11pm Daily</p>
+                        <br>
+                        <p>Google Map: The Linc KL</p>
+                        <a href="https://www.google.com/maps/place/The+LINC+KL/@3.1589357,101.7187734,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc37700e579d73:0x924ace1c29a4f428!8m2!3d3.1589303!4d101.7209621" id="hero-btn1">
+                            Direction</a>
+                    </div> 
+                </div>
+
+                <h2>Tesco Extra Cheras</h2>
+                <div class="landscape">
+                    
+                    <img src="Image/store2.jpg" alt="Store 2">
+
+                    <div class="location-box">
+                        <p>Address: Ground Floor, G51-G53A, No. 2, Jalan Midah 2, Taman Midah, 56000 Cheras, Kuala Lumpur</p>
+                        <br>
+                        <p>Phone Number: 019-245 7896 </p>
+                        <br>
+                        <p>Email: customerservice@JOS-Furniture.com.my</p>
+                        <br>
+                        <p>Operating Hours: 8am-10pm Daily</p>
+                        <br>
+                        <p>Google Map: Tesco Extra Cheras</p>
+                        <a href="https://www.google.com/maps/place/Tesco+Extra,+2,+Jalan+Midah+2,+Taman+Midah,+56000+Cheras,+Wilayah+Persekutuan+Kuala+Lumpur/@3.0995414,101.732577,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc35c379d965eb:0x1a796c942da88249!8m2!3d3.0995414!4d101.7347657" id="hero-btn2">
+                            Direction</a>
+                    </div>
+                </div>
+            </section>
+        </main>    
+
+        <footer>
+            JOS | &copy; 2001.All Rights Reserved | 
+            <a href="#!">Terms And Conditions</a> | 
+            <a href="#!">Privacy Policy</a>
+        </footer>
+
+        <!--Javascript For Toggle Menu-->
+        <script>
+
+            var navlinks = documnet.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JOS Furniture Home</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@345&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4d528cf59a.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body id="bodyH">
+        <header id="headerHome">
+            <nav>
+                <a href="home.html"><img src="Image/home_adobespark_copy.png" alt="LOGO"></a>
+                <h2 class="title">JOS Furniture</h2>
+                
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="store.html">STORE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="custReview.html">CUSTOMER REVIEWS</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1><b>Welcome To Our Website</b></h1>
+                <p>We design and source for home furnishing pieces that are stylish enough to make your neighbours envious yet priced reasonably. </p>
+                <a href="about.html" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="service">
+                <h1>Services We Provided</h1>
+                <p>Lorem ipsum dolor sit amet, at ius equidem intellegat</p>
+
+                <div class="row">
+                    <div class="service-col">
+                        <h3>Free Product Delivery</h3>
+                        <img src="/Image/dlvy.png" alt="Delivery Icon">
+                        <p>We are now providing free product delivery within Klang Valley (Kuala Lumpur & Selangor).T&C apply.</p>
+                    </div>
+                    <div class="service-col">
+                        <h3>Free Product Warranty</h3>
+                        <img src="/Image/wrtty.png" alt="Warranty Icon">
+                        <p>All furniture will come in perfect condition And All products bought from JOS Furniture are secured with a minimum of 90-Day Limited Warranty on manufacturing defects. T&C apply.</p>
+                    </div>
+                    <div class="service-col">
+                        <h3>14 Days Free Return</h3>
+                        <img src="Image/return.png" alt="Return Icon">
+                        <p>Your purchased furniture does not fit your home? Get your items returned and refunded within 14 days! T&C apply.</p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="cont">
+                <h1>We are looking for equally passionate colleague to join us!</h1>
+                <a href="contact.html" class="hero-btn">CONTACT US</a>
+
+            </section>
+        </main>
+
+        <footer>
+            JOS | &copy; 2001.All Rights Reserved | 
+            <a href="#!">Terms And Conditions</a> | 
+            <a href="#!">Privacy Policy</a> 
+
+        </footer>
+
+        <!--Javascript For Toggle Menu-->
+        <script>
+
+            var navlinks = documnet.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+    </body>
+</html>
